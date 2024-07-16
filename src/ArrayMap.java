@@ -131,18 +131,18 @@ public class ArrayMap<K, V> {
     }
 
     public static void main(String[] args) {
-        ArrayMap<Integer, String> myHashMap = new ArrayMap<>();
-        myHashMap.put(134, "Kirils");
-        myHashMap.put(124, "Alexander");
-        myHashMap.put(001, "Sophie");
-        myHashMap.put(346, "Jan");
-        myHashMap.put(234,  "Manuel");
-        myHashMap.put(233, "Roberto");
-        myHashMap.put(456, "Max");
-        myHashMap.put(635, "Valeria");
-        myHashMap.put(886,  "Katja");
+        ArrayMap<Integer, String> myArrayMap = new ArrayMap<>();
+        myArrayMap.put(134, "Kirils");
+        myArrayMap.put(124, "Alexander");
+        myArrayMap.put(001, "Sophie");
+        myArrayMap.put(346, "Jan");
+        myArrayMap.put(234,  "Manuel");
+        myArrayMap.put(233, "Roberto");
+        myArrayMap.put(456, "Max");
+        myArrayMap.put(635, "Valeria");
+        myArrayMap.put(886,  "Katja");
 
-        myHashMap.remove(886);
-        System.out.println(myHashMap);
+        myArrayMap.remove(886);
+        System.out.println(myArrayMap);
     }
 }
